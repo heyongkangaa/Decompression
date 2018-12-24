@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Decompression World</title>
+	<style type="text/css">
+	* {
+        font-family: 微软雅黑;
+        font-size: 20px;
+        background-color: lightskyblue;
+    }
+
+    h1 {
+    	font-family: "Times New Roman", Times, serif;
+        font-variant: small-caps;
+        font-size: 60px;
+    }
+
+    body {
+    	/*background-image: url(logo.png);*/
+    }
+
+    button{
+      background-color: Khaki;
+      color: black;
+      font-size: 25px;
+      border: 2px solid #555555;
+      padding: 20px 60px;
+      text-align: center;;
+      margin: 30px 50px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 5%;
+    }
+
+    button:hover {
+        background-color: #555555;
+        color: white;
+    }
+
+    legend {
+        font-size: 20px;
+    }
+
+    .btnback{
+      width: 10px;
+      height: 10px;
+    }
