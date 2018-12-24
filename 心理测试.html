@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>心理测试</title>
+	<style type="text/css">
+	* {
+        font-family: 微软雅黑;
+        background-color: lightskyblue;
+    }
+
+    h1 {
+    	font-family: "Times New Roman", Times, serif;
+        font-variant: small-caps;
+        font-size: 60px;
+    }
+
+    body {
+    	/*background-image: url(logo.png);*/
+    }
+
+    button{
+      background-color: Khaki;
+      color: black;
+      font-size: 25px;
+      border: 2px solid #555555;
+      padding: 10px 30px;
+      text-align: center;;
+      margin: 30px 50px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 5%;
+    }
+
+    button:hover {
+        background-color: #555555;
+        color: white;
+    }
+
+	</style>
+
+	<script type="text/javascript">
+    function back(){
+      window.open("点击进入.html","_blank","location=no,status=no,scrollbars=no",true);
+      // width=700,height=500,
+      window.close();
+    }
+		function finish(){
+          window.open("测试结果.html","_blank","location=no,status=no,scrollbars=no",true);
+          // width=700,height=500,
+          window.close();
+        }
+	</script>
+</head>
+<body>
+	<h1 font-family:Arial Black>Decompression World</h1>
+  <button onclick="back();"><返回</button>
+	<fieldset>
+		<legend>欢迎进入心理测试</legend>
+		<div>
+		    <p></p>
+		    <p>1.建议在安静环境中独立做题</p>
+	        <p>2.仔细考虑下列每一个项目， 看它究竟有多适合你， 然後选择其中一项</p>
+	    </div>
+	</fieldset>
+  <fieldset>
+    <legend>测试</legend>
+    
+      <div>
+        <p>1.请问你觉得自己的压力大吗？</p>
+        <div>
+         <span>请选择一个最符合你自身情况的选项：</span>
+         <input type="radio" />非常大
+         <input type="radio" />很大
+         <input type="radio" />大
+         <input type="radio" />一些
+         <input type="radio" />没有
+        </div>
+      </div>
+  </fieldset>
+	<div>
+		<!-- <img src="logo.png" alt="This is our logo!" height="300" width="300"> -->
+		<div>
+			<button onclick="finish();">完成</button>
+		</div>
+	</div>	
+</body>
+</html>

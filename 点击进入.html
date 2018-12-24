@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Decompression World</title>
+	<style type="text/css">
+	* {
+        font-family: 微软雅黑;
+        font-size: 20px;
+        background-color: lightskyblue;
+    }
+
+    h1 {
+    	font-family: "Times New Roman", Times, serif;
+        font-variant: small-caps;
+        font-size: 60px;
+    }
+
+    body {
+    	/*background-image: url(logo.png);*/
+    }
+
+    button{
+      background-color: Khaki;
+      color: black;
+      font-size: 25px;
+      border: 2px solid #555555;
+      padding: 20px 60px;
+      text-align: center;;
+      margin: 30px 50px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 5%;
+    }
+
+    button:hover {
+        background-color: #555555;
+        color: white;
+    }
+
+    legend {
+        font-size: 20px;
+    }
+
+    .btnback{
+      width: 10px;
+      height: 10px;
+    }
+
+	</style>
+
+	<script type="text/javascript">
+    function back(){
+      window.open("首页.html","_blank","location=no,status=no,scrollbars=no",true);
+      // width=700,height=500,
+      window.close();
+    }
+		function enter1(){
+      window.open("心理测试.html","_blank","location=no,status=no,scrollbars=no",true);
+      // width=700,height=500,
+      window.close();
+    }
+    function enter2(){
+      alert("抱歉，该功能暂未开放！");
+    }
+	</script>
+</head>
+<body>
+	<h1 font-family:Arial Black>Decompression World</h1>
+  <button id="btnback" onclick="back();"  padding=20px><返回</button>
+	<div>
+		<h4>欢迎来到减压世界</h4>
+		<p> ● 压力无处不在，人类已经进入压力疾病时代</p>
+		<p> ● 人们总有睡不好、心情不好的时候，在承受压力时，我们往往会失眠、愤怒、恐惧或抑郁</p>
+        <p> ● 这是一个减压世界，让你释放压力，你可以在这里随意宣泄，也可以把想说的话以匿名的形式说出来</p>
+	</div>
+	<div>
+		<!-- <img src="logo.png" alt="This is our logo!" height="300" width="300"> -->
+		<fieldset>
+			<legend>请选择一个想要进行的模块吧~</legend>
+			<div>
+			    <button onclick="enter1();">心理测试</button>
+		    </div>
+		    <div>
+			    <button onclick="enter2();">开始减压</button>
+		    </div>
+		</fieldset>
+		
+	</div>	
+</body>
+</html>
